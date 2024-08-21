@@ -12,5 +12,12 @@
         "received_MB": 0.2119140625,
         "total_sent_MB": 0.71484375,
         "total_received_MB": 2.6201171875
+    },
+    {
+        "timestamp": "2024-08-21 17:27:55",
+        "sent_MB": 0.166015625,
+        "received_MB": 0.095703125,
+        "total_sent_MB": 0.880859375,
+        "total_received_MB": 2.7158203125
     }
 ]
