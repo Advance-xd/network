@@ -1,27 +1,16 @@
 import psutil
 import time
+import json
+from datetime import datetime
 
 def get_network_usage():
     """Get the current network usage."""
     net_io = psutil.net_io_counters()
     return net_io.bytes_sent, net_io.bytes_recv
 
-def calculate_average_usage(usage_list):
-    """Calculate the average network usage from the list of usage records."""
-    if not usage_list:
-        return 0, 0
-    
-    total_sent = sum([usage[0] for usage in usage_list])
-    total_recv = sum([usage[1] for usage in usage_list])
-    
-    avg_sent = total_sent / len(usage_list)
-    avg_recv = total_recv / len(usage_list)
-    
-    return avg_sent, avg_recv
-
-def monitor_network(interval=60):
-    """Monitor network usage and calculate total and average usage."""
-    usage_list = []
+def monitor_network(interval=60, json_filename="network_usage.json"):
+    """Monitor network usage and save data as JSON."""
+    usage_data = []
     total_sent, total_recv = 0, 0
     
     while True:
@@ -42,16 +31,24 @@ def monitor_network(interval=60):
         total_sent += sent
         total_recv += recv
         
-        # Add the usage to the list
-        usage_list.append((sent, recv))
+        # Record the current time
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         
-        # Calculate the average usage per minute
-        avg_sent, avg_recv = calculate_average_usage(usage_list)
+        # Record the data for this interval
+        data_point = {
+            "timestamp": timestamp,
+            "sent_MB": sent / 1024 / 1024,
+            "received_MB": recv / 1024 / 1024,
+            "total_sent_MB": total_sent / 1024 / 1024,
+            "total_received_MB": total_recv / 1024 / 1024,
+        }
+        usage_data.append(data_point)
         
-        print(f"Usage in the last {interval} seconds - Sent: {sent / 1024 / 1024:.2f} MB, Received: {recv / 1024 / 1024:.2f} MB")
-        print(f"Total usage - Sent: {total_sent / 1024 / 1024:.2f} MB, Received: {total_recv / 1024 / 1024:.2f} MB")
-        print(f"Average usage per minute - Sent: {avg_sent / 1024 / 1024:.2f} MB, Received: {avg_recv / 1024 / 1024:.2f} MB")
-        print("-" * 50)
+        # Save the data to a JSON file
+        with open(json_filename, "w") as f:
+            json.dump(usage_data, f, indent=4)
+        
+        print(f"Saved data for {timestamp} to {json_filename}")
 
 if __name__ == "__main__":
     monitor_network()
