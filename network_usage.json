@@ -1,23 +1,170 @@
 [
     {
-        "timestamp": "2024-08-21 17:25:55",
-        "sent_MB": 0.3984375,
-        "received_MB": 2.408203125,
-        "total_sent_MB": 0.3984375,
-        "total_received_MB": 2.408203125
+        "timestamp": "2024-08-24 08:31:12",
+        "sent_MB": 1.732421875,
+        "received_MB": 7.1923828125,
+        "total_sent_MB": 1.732421875,
+        "total_received_MB": 7.1923828125
     },
     {
-        "timestamp": "2024-08-21 17:26:55",
-        "sent_MB": 0.31640625,
-        "received_MB": 0.2119140625,
-        "total_sent_MB": 0.71484375,
-        "total_received_MB": 2.6201171875
+        "timestamp": "2024-08-24 08:32:12",
+        "sent_MB": 5.28125,
+        "received_MB": 27.7734375,
+        "total_sent_MB": 7.013671875,
+        "total_received_MB": 34.9658203125
     },
     {
-        "timestamp": "2024-08-21 17:27:55",
-        "sent_MB": 0.166015625,
-        "received_MB": 0.095703125,
-        "total_sent_MB": 0.880859375,
-        "total_received_MB": 2.7158203125
+        "timestamp": "2024-08-24 08:33:12",
+        "sent_MB": 10.4208984375,
+        "received_MB": 29.349609375,
+        "total_sent_MB": 17.4345703125,
+        "total_received_MB": 64.3154296875
+    },
+    {
+        "timestamp": "2024-08-24 08:34:12",
+        "sent_MB": 17.541015625,
+        "received_MB": 44.15234375,
+        "total_sent_MB": 34.9755859375,
+        "total_received_MB": 108.4677734375
+    },
+    {
+        "timestamp": "2024-08-24 08:35:12",
+        "sent_MB": 4.3671875,
+        "received_MB": 13.3359375,
+        "total_sent_MB": 39.3427734375,
+        "total_received_MB": 121.8037109375
+    },
+    {
+        "timestamp": "2024-08-24 08:36:12",
+        "sent_MB": 8.599609375,
+        "received_MB": 26.4697265625,
+        "total_sent_MB": 47.9423828125,
+        "total_received_MB": 148.2734375
+    },
+    {
+        "timestamp": "2024-08-24 08:37:12",
+        "sent_MB": 0.5625,
+        "received_MB": 4.2490234375,
+        "total_sent_MB": 48.5048828125,
+        "total_received_MB": 152.5224609375
+    },
+    {
+        "timestamp": "2024-08-24 08:38:12",
+        "sent_MB": 0.400390625,
+        "received_MB": 16.951171875,
+        "total_sent_MB": 48.9052734375,
+        "total_received_MB": 169.4736328125
+    },
+    {
+        "timestamp": "2024-08-24 08:39:12",
+        "sent_MB": 0.1650390625,
+        "received_MB": 1.0400390625,
+        "total_sent_MB": 49.0703125,
+        "total_received_MB": 170.513671875
+    },
+    {
+        "timestamp": "2024-08-24 08:40:12",
+        "sent_MB": 4.28515625,
+        "received_MB": 13.2236328125,
+        "total_sent_MB": 53.35546875,
+        "total_received_MB": 183.7373046875
+    },
+    {
+        "timestamp": "2024-08-24 08:41:12",
+        "sent_MB": 17.068359375,
+        "received_MB": 28.8447265625,
+        "total_sent_MB": 70.423828125,
+        "total_received_MB": 212.58203125
+    },
+    {
+        "timestamp": "2024-08-24 08:42:12",
+        "sent_MB": 1.8154296875,
+        "received_MB": 17.3017578125,
+        "total_sent_MB": 72.2392578125,
+        "total_received_MB": 229.8837890625
+    },
+    {
+        "timestamp": "2024-08-24 08:43:12",
+        "sent_MB": 2.396484375,
+        "received_MB": 5.3759765625,
+        "total_sent_MB": 74.6357421875,
+        "total_received_MB": 235.259765625
+    },
+    {
+        "timestamp": "2024-08-24 08:44:12",
+        "sent_MB": 4.3896484375,
+        "received_MB": 19.7890625,
+        "total_sent_MB": 79.025390625,
+        "total_received_MB": 255.048828125
+    },
+    {
+        "timestamp": "2024-08-24 08:45:12",
+        "sent_MB": 17.4287109375,
+        "received_MB": 39.1962890625,
+        "total_sent_MB": 96.4541015625,
+        "total_received_MB": 294.2451171875
+    },
+    {
+        "timestamp": "2024-08-24 08:46:12",
+        "sent_MB": 2.669921875,
+        "received_MB": 7.2861328125,
+        "total_sent_MB": 99.1240234375,
+        "total_received_MB": 301.53125
+    },
+    {
+        "timestamp": "2024-08-24 08:47:12",
+        "sent_MB": 8.357421875,
+        "received_MB": 20.466796875,
+        "total_sent_MB": 107.4814453125,
+        "total_received_MB": 321.998046875
+    },
+    {
+        "timestamp": "2024-08-24 08:48:12",
+        "sent_MB": 2.9013671875,
+        "received_MB": 7.806640625,
+        "total_sent_MB": 110.3828125,
+        "total_received_MB": 329.8046875
+    },
+    {
+        "timestamp": "2024-08-24 08:49:12",
+        "sent_MB": 10.4853515625,
+        "received_MB": 29.705078125,
+        "total_sent_MB": 120.8681640625,
+        "total_received_MB": 359.509765625
+    },
+    {
+        "timestamp": "2024-08-24 08:50:12",
+        "sent_MB": 0.44921875,
+        "received_MB": 8.232421875,
+        "total_sent_MB": 121.3173828125,
+        "total_received_MB": 367.7421875
+    },
+    {
+        "timestamp": "2024-08-24 08:51:12",
+        "sent_MB": 4.9970703125,
+        "received_MB": 21.6025390625,
+        "total_sent_MB": 126.314453125,
+        "total_received_MB": 389.3447265625
+    },
+    {
+        "timestamp": "2024-08-24 08:52:12",
+        "sent_MB": 19.486328125,
+        "received_MB": 9.2529296875,
+        "total_sent_MB": 145.80078125,
+        "total_received_MB": 398.59765625
+    },
+    {
+        "timestamp": "2024-08-24 08:53:13",
+        "sent_MB": 0.2880859375,
+        "received_MB": 5.1376953125,
+        "total_sent_MB": 146.0888671875,
+        "total_received_MB": 403.7353515625
+    },
+    {
+        "timestamp": "2024-08-24 08:54:13",
+        "sent_MB": 0.2021484375,
+        "received_MB": 1.7578125,
+        "total_sent_MB": 146.291015625,
+        "total_received_MB": 405.4931640625
     }
 ]
